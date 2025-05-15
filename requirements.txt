@@ -1,0 +1,3 @@
+aiohttp
+aiofiles
+git+https://github.com/divyam234/Gemini-API.git#egg=gemini_webapi
