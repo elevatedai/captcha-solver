@@ -8,7 +8,7 @@ COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN apt purge git -y
+RUN apt purge git -y && apt autoremove
 
 COPY captcha-solver.py .
 
